@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 /">
+        <meta http-equiv="X-UA-compatible" content="ie=edge" />
+          <title>Lone Star Table Service App</title>
+          <script src="https://kit.fontawesome.com/8f4ef9a994.js" crossorigin="anonymous"></script>
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+        <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="scss/style.css">
+        <script src="store.js" async></script>
+        </head>
+
+        <body>
+
+            <header>
+               <nav class="top-nav">
+                <ul class="app-heading">
+                    <li><a href="index.html"><i class="fa-solid fa-arrow-left-long"></i></a></li>
+                    <li><h1 class="top">Menu</h1></li>
+                    <li class="heading-close">x</li>
+                </ul>>
+               </nav> 
+            </header>
+
+            <nav class="menu-navbar">
+                <ul>
+                    <li><a class="active" href="starters.html">Starters</a></li>
+                    <li><a href="mains.html">Mains</a></li>
+                    <li><a href="dessert.html">Dessert</a></li>
+                    <li><a href="sides.html">Sides</a></li>
+                    <li><a href="drinks.html">Drinks</a></li>
+                </ul>
+            </nav>
+    
+    
+            <div class="heading"><h1>Starters</h1></div>
+    
+    
+            
+             <div class="starters-menu">
+    
+              <div id="row01">
+    
+                <div class="card">
+                  <img src="img/garlic-loaf.jpg" alt="garlic-loaf">
+                  <div class="card-content">
+                    <h1 class="card-heading">Baked Garlic Loaf</h1>
+                    <h2 class="item-price">$12.90</h2>
+                    <p class="card-info">A traditional seeded ciabatta loaf, hand-crafted by Loaf Bakery exclusively for Lone Star. Oven baked with a lashing of Lone Star garlic butter.</p> 
+                  </div>  
+                
+  
+                   
+                   <button id="myBtn">Add To Cart</button>
+  
+                  
+                  <div id="myModal" class="modal">
+  
+                
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h1>Baked Garlic Loaf</h1>
+                      </div>
+                      <div class="modal-body">
+                        <img class="modal-img"src="img/garlic-loaf.jpg" alt="garlic-loaf">
+                        <p class="modal-p">A traditional seeded ciabatta loaf, hand-crafted by Loaf Bakery exclusively for Lone Star. Oven baked with a lashing of Lone Star garlic butter.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <div class="quantity buttons_added">
+                          <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                        </div>
+                        <div>
+                          <h2>$12.90</h2>
+                        </div>
+                          <p class="modal-remove">Remove</p>
+                        <div>
+                          <a href="starters.html"><button id="plus" class="shop-item-button">confirm</button></a>
+                        </div>
+                         
+                      </div>
+                   </div>
+                  </div>  
+    
+                </div>
+    
+                
+    
+                <div class="card">
+                  <img src="img/bean-dip.jpg" alt="bean-dip">
+                   <div class="card-content">
+                    <h1 class="card-heading">Cowboy Bean Dip</h1>
+                    <h2>$12.90</h2>
+                    <p class="card-info">Spicy red kidney beans, cheddar cheese, sundried tomatoes and jalapeños. Blended and served hot with sour cream and oven baked flour tortilla chips.</p>
+                    
+                   </div> 
+                   <button id="myBtn">Add To Cart</button>
+                </div>
+    
+              </div>
+    
+            
+    
+    
+            
+            <div id="row02">
+    
+                <div class="card">
+                 <img src="img/redneck-ribs.jpg" alt="redneck-ribs">
+                  <div class="card-content">
+                    <h1 class="card-heading">Redneck Ribs</h1>
+                    <h2>$17.50</h2>
+                    <p class="card-info">Four Porky Pig’s ribs blanched in honey and spices. Blasted in the Lone Star fire then piled high and smothered in our world-famous hoisin, orange and sesame seed sauce.</p>
+                  </div>
+                  <button id="myBtn">Add To Cart</button>
+                  
+                </div>
+    
+                <div class="card">
+                 <img src="img/squid.jpg" alt="squid">
+                   <div class="card-content">
+                    <h1 class="card-heading">San Quentin Squid</h1>
+                    <h2>$19.00</h2>
+                    <p class="card-info">Crispy salt and pepper calamari, served with a citrus aioli.</p>
+                  </div>
+                  <button id="myBtn">Add To Cart</button>
+                </div>
+    
+            </div>
+    
+          <!-- ROW 3 -->
+          <div id="row03">
+    
+          <div class="card">
+            <img src="img/chicken-nibbles.jpg" alt="chicken-nibbles">
+             <div class="card-content">
+              <h1 class="card-heading">Chicken Nibbles</h1>
+              <h2>$17.00</h2>
+              <p class="card-info">Blanched in soy, honey and spices. Served with a hoisin and sesame seed sauce.</p>
+             </div>
+             <button id="myBtn">Add To Cart</button>
+          </div>
+    
+          <div class="card">
+            <img src="img/prawnstar.jpg" alt="prawnstar">
+             <div class="card-content">
+              <h1 class="card-heading">Prawn Star</h1>
+              <h2>$19.00</h2>
+              <p class="card-info">Tiger prawn cutlets sautéed in garlic, chilli and coriander butter. Served with basmati rice… a Lone Star classic!</p>
+            </div>
+            <button id="myBtn">Add To Cart</button>
+          </div>
+    
+        </div>  
+    
+        </div>
+
+
+           
+            <nav class="mobile_nav">
+                <a href="index.html" class="nav__link">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="nav__text">Home</span>
+                </a>
+
+                <a href="starters.html" class="nav__link nav__link--active">
+                    <i class="fa-solid fa-utensils"></i>
+                    <span class="nav__text">Menu</span>
+                </a>
+
+                <a href="orders.thml" class="nav__link">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span class="nav__text">Orders</span>
+                </a>
+
+                <a href="cart.html" class="nav__link">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="nav__text">Cart</span>
+                </a>
+            </nav>
+              
+            <script src="main.js"></script>
+        </body>
+
+</html>

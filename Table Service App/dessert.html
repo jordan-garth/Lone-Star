@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 /">
+        <meta http-equiv="X-UA-compatible" content="ie=edge" />
+          <title>Lone Star Table Service App</title>
+          <script src="https://kit.fontawesome.com/8f4ef9a994.js" crossorigin="anonymous"></script>
+          <link rel="stylesheet" href="scss/style.css">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+        <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    
+        </head>
+
+        <body>
+
+            <header>
+               <nav class="top-nav">
+                <ul class="app-heading">
+                    <li><a href="index.html"><i class="fa-solid fa-arrow-left-long"></i></a></li>
+                    <li><h1 class="top">Menu</h1></li>
+                    <li class="heading-close">x</li>
+                </ul>>
+               </nav> 
+            </header>
+
+            <nav class="menu-navbar">
+                <ul>
+                    <li><a href="starters.html">Starters</a></li>
+                    <li><a href="mains.html">Mains</a></li>
+                    <li><a class="active" href="dessert.html">Dessert</a></li>
+                    <li><a href="sides.html">Sides</a></li>
+                    <li><a href="drinks.html">Drinks</a></li>
+                </ul>
+            </nav>
+    
+    
+            <div class="heading"><h1>Dessert</h1></div>
+    
+    
+
+         <div class="starters-menu">
+
+            <div id="row01">
+  
+              <div class="card">
+                  <img src="img/pavlova.jpg" alt="pavlova">
+               <div class="card-content">
+                  <h1 class="card-heading">Kiwi Pavlova</h1>
+                  <h2>$12.00</h2>
+                  <p class="card-info">Mini pavs filled with whipped cream. Served with vanilla bean ice cream, fresh fruit and berry coulis.</p> 
+               </div>
+
+      
+               <button id="myBtn">Add To Cart</button>
+
+               <div id="myModal" class="modal">
+
+          
+                <div class="modal-content">
+                     <div class="modal-header">
+                         <span class="close">&times;</span>
+                         <h1>Kiwi Pavlova</h1>
+                        </div>
+                        <div class="modal-body">
+                            <img class="modal-img"src="img/pavlova.jpg" alt="pavlova">
+                            <p class="modal-p">Mini pavs filled with whipped cream. Served with vanilla bean ice cream, fresh fruit and berry coulis.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="quantity buttons_added">
+                                <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                            </div>
+                            <div><h2>$12.00</h2></div>
+                            <div><a href="dessert.html"><button id="plus">Add To Cart</button></a></div>
+                            
+                        </div>
+                    </div>
+
+                  </div>  
+  
+              </div>
+  
+              
+  
+              <div class="card">
+                <img src="img/cheesecake.jpg" alt="cheesecake">
+                 <div class="card-content">
+                  <h1 class="card-heading">Longhorn Cheescake</h1>
+                  <h2>$28.00</h2>
+                  <p class="card-info">Our legendary Kahlua and Moro Bar cheesecake. Served with chocolate sauce and whipped cream.</p>
+                </div>
+                <button id="myBtn">Add To Cart</button>
+              </div>
+  
+            </div>
+  
+          
+      
+          <div id="row02">
+  
+              <div class="card">
+               <img src="img/choc-fudge.jpg" alt="choc-fudge">
+                <div class="card-content">
+                  <h1 class="card-heading">Jack Daniel's Chocolate Fudge Pudding</h1>
+                  <h2>$14.50</h2>
+                  <p class="card-info">A rich, self-saucing chocolate fudge pudding, laced with Jack Daniel's. Served with chocolate sauce, whipped cream and vanilla bean ice cream.</p>
+                </div>
+                <button id="myBtn">Add To Cart</button>
+              </div>
+  
+              <div class="card">
+               <img src="img/milky-bar.jpg" alt="milky-bar">
+                 <div class="card-content">
+                  <h1 class="card-heading">The Milky Bar Pud</h1>
+                  <h2>$14.50</h2>
+                  <p class="card-info">White chocolate and buttermilk pudding. Served hot with butterscotch sauce, white chocolate sauce and vanilla bean ice cream.</p>
+                </div>
+                <button id="myBtn">Add To Cart</button>
+              </div>
+  
+          </div>
+  
+      
+      </div>
+
+
+       
+            <nav class="mobile_nav">
+                <a href="index.html" class="nav__link">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="nav__text">Home</span>
+                </a>
+
+                <a href="starters.html" class="nav__link nav__link--active">
+                    <i class="fa-solid fa-utensils"></i>
+                    <span class="nav__text">Menu</span>
+                </a>
+
+                <a href="orders.html" class="nav__link">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span class="nav__text">Orders</span>
+                </a>
+
+                <a href="cart.html" class="nav__link">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="nav__text">Cart</span>
+                </a>
+            </nav>
+   
+        <script src="main.js"></script>
+        </body>
+
+</html>

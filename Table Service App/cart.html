@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 /">
+        <meta http-equiv="X-UA-compatible" content="ie=edge" />
+          <title>Lone Star Table Service App</title>
+          <script src="https://kit.fontawesome.com/8f4ef9a994.js" crossorigin="anonymous"></script>
+          <link rel="stylesheet" href="scss/style.css">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+        <script src="store.js" async></script>
+        </head>
+
+        <body>
+
+            <header>
+               <nav class="top-nav">
+                <ul class="app-heading">
+                    <li><a href="starters.html"><i class="fa-solid fa-arrow-left-long"></i></a></li>
+                    <li><h1 class="top">Cart</h1></li>
+                    <li class="heading-close">x</li>
+                </ul>>
+               </nav> 
+            </header>
+
+         
+            <h1 class="cart-heading">Confirm Order</h1>
+
+            <div class="small-container cart-page">
+                <table>
+
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                    </tr>
+                    
+                    <tr class="cart-row">
+                        <td>
+                            <div class="cart-info">
+                                <img src="img/garlic-loaf.jpg" alt="garlic-loaf">
+                                <div>
+                                    <h2 class="cart-food-heading">Baked Garlic Loaf</h2>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="cart-price">
+                            $12.90
+                        </td>
+                        <td>
+                            <input class="cart-quantity-input"type="number" value="1">
+                        </td>
+                        <td>
+                            <button class="btn btn-danger">x</button>
+                        </td>
+                    </tr>
+
+                    
+                    <tr class="cart-row">
+                        <td>
+                            <div class="cart-info">
+                                <img src="img/pavlova.jpg" alt="pavlova">
+                                <div>
+                                    <h2 class="cart-food-heading">Kiwi Pavlova</h2>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="cart-price">
+                            $12.00
+                        </td>
+                        <td>
+                            <input class="cart-quantity-input" type="number" value="1">
+                        </td>
+                        <td>
+                            <button class="btn btn-danger">x</button>
+                        </td>
+                    </tr>
+
+
+                </table>
+
+
+                <div class="total">
+                    <strong>Total</strong>
+                    <span class="cart-total-price">$46.90</span>
+                </div>
+            </div>
+
+            <div class="name-your-order">
+                <div class="name-form">
+                    <form>
+                        <label class="confirm-order-heading"for="fname">Name your order:</label><br>
+                        <input class="confirm-order-input"type="text" id="fname" name="fname"><br>
+                      </form>
+                </div>
+                <div class="cart-buttons">
+                    <a class="cart-button-style"href="starters.html"><button class="Add-to-cart-order-btn">Add to cart</button></a>
+                    <a class="cart-button-style" href="track.html"><button  class="confirm-order-btn">Confirm</button></a>
+                </div>
+                
+            </div>
+
+            
+
+          
+            <nav class="mobile_nav">
+                <a href="index.html" class="nav__link">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="nav__text">Home</span>
+                </a>
+
+                <a href="starters.html"  class="nav__link">
+                    <i class="fa-solid fa-utensils"></i>
+                    <span class="nav__text">Menu</span>
+                </a>
+
+                <a href="orders.html" class="nav__link">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span class="nav__text">Orders</span>
+                </a>
+
+                <a href="cart.html" class="nav__link nav__link--active" >
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="nav__text">Cart</span>
+                </a>
+            </nav>
+            
+        <script src="main.js"></script>
+        </body>
+
+</html>
